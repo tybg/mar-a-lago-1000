@@ -1,0 +1,54 @@
+{
+  "name": "",
+  "description": "",
+  "homepage": "",
+  "author": "Dan Stroot",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": ""
+    }
+  ],
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "cors": "2.7.1",
+    "ejs": "2.4.1",
+    "errorhandler": "1.4.3",
+    "express": "4.13.4",
+    "express-jwt": "3.3.0",
+    "express-session": "1.13.0",
+    "jsonwebtoken": "7.1.9",
+    "method-override": "2.3.5",
+    "methods": "1.1.2",
+    "mongoose": "4.4.10",
+    "mongoose-unique-validator": "1.0.2",
+    "morgan": "1.7.0",
+    "passport": "0.3.2",
+    "passport-local": "1.0.0",
+    "request": "2.69.0",
+    "slug": "0.9.1",
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "grunt": "1.0.x",
+    "grunt-contrib-clean": "1.1.x",
+    "grunt-contrib-connect": "1.0.x",
+    "grunt-contrib-csslint": "2.0.x",
+    "grunt-contrib-jshint": "1.1.x",
+    "grunt-contrib-less": "1.4.x",
+    "grunt-contrib-uglify": "3.1.x",
+    "grunt-contrib-watch": "1.0.x",
+    "grunt-html-validation": "0.1.x",
+    "load-grunt-tasks": "3.5.x",
+    "nodemon": "^1.11.0"
+  }
+}
